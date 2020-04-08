@@ -8,6 +8,7 @@ end
 
 function TriggerLoadMain(entity)
 	print("Attempting Trigger")
-	level:MovePlayerTo(-1, -1, "SL2World00", true);
+	p = level:getClientPlayer();
+	level:MovePlayerTo(p:x() + 18912, 6944, "SL2World00", false);
 end
 
