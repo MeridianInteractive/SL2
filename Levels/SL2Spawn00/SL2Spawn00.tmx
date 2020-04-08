@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="104" height="104" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="14">
+ <tileset firstgid="1" source="assets/blocks32.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="104" height="104">
+  <data encoding="base64" compression="zlib">
+   eJzt2U1OwzAURWFDJURnrCEDJC+EpXT/W0CRiJQaO/5J7HeTnsGnSigN8TuYhnB/d+4OAAAAAAAAAAAAAAAAAABwcR+Vr6POBfqcAX200UcbfbTRRxt9tNFHG3200UcbfbTRR1vLTH2APn3Ms/2ufJ3fd3PP9pwLaZOr5yN9fOO5rNevbp7RZ4XJ/W+zaDmX9frVTatZ5ZT2qTmX9frV0Udb60xj9wf0oc+roY82+mijjzb6aKOPNvpoo482+mhrmamP9PH0kenD8zf64LkP///RNBX+vK/N70vdH7ScC8eL9YEO+tjyGbH76y3W67ma1D3A2vI5X3Ks9XquZj3/mLBP7ljr9VzNrWBvlOwf+vTv07p/6DOuT+3+oc/4PqX7hz52fXL7hz4awj7W1/NqfEbYJ3e89Xquht9v2rg/0Mb9tTb+PtXG8x1tPB/VtrUnwn7rr229B2P4SAsvcF2gzxGzGyHWZwTr+e7108Gbe5b6jAmP63Et1vPd65FwZKOlx9efWJ8jWsTWYT3fXn1KlTTK9amdeQ3r+Vr32WpW26fHtVjPV7HP0qimT6/rsJ6vap91o60+PdvQhz5n7rM0SvXp3YY+9KEPfeijiz7aes/nsdFnxPe2ni996EMf+tCHPmdEH2300UYfbfTRRh9t9NFGn31+AXWUiXo=
+  </data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="104" height="104">
+  <data encoding="base64" compression="zlib">
+   eJzt2t0JglAYgGHRDZIGqev2aJUumkJqkWoSa5MaIA8Y/WBdiX7Y88DBgyAIL5+CmGUAAAAAAAAAAAAAAAAAAADwtMy798S3aXvNdQMAAAAY1CL/fWR6Ttr2pu/5OTbX7Zp11iisiza98f4BAAAAAAAAAABgyvbt/3BlkWWz4v0ccaQ2ZTH2XfyvOu9eD7dmfzU3o/vWJ7V5nZ/0L/yqWVvNBtfV52B+Qqk/WqQ+lT5hpdlZf/TxbIvloEdonm9xef/Epk9slT6haQMAAP3x7Q0AgLHdAU/lI3M=
+  </data>
+ </layer>
+ <objectgroup color="#ff00ff" id="4" name="Collision">
+  <object id="5" type="solid" x="1152" y="1248">
+   <polyline points="0,0 0,608 416,608 416,576 448,576 448,704 192,704 192,928 448,928 448,992 192,992 192,1216 416,1216 416,1184 448,1184 448,1312 -32,1312 -32,2080 1056,2080 1056,1312 576,1312 576,1184 608,1184 608,1216 832,1216 832,992 608,992 576,992 576,928 832,928 832,704 576,704 576,576 608,576 608,608 1024,608 1024,0 608,0 608,32 576,32 576,-32 448,-32 448,32 416,32 416,0 0,0"/>
+  </object>
+  <object id="6" type="solid" x="1568" y="1376">
+   <polygon points="0,0 32,0 32,352 0,352"/>
+  </object>
+  <object id="7" type="solid" x="1728" y="1728">
+   <polygon points="0,0 32,0 32,-352 0,-352"/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#aa0000" id="3" name="Zones">
+  <object id="1" name="SpawnPoint" type="SpawnPoint" x="1632" y="2240">
+   <point/>
+  </object>
+  <object id="2" name="TV- TCL" type="Trigger" x="1568" y="2176" width="192" height="160">
+   <properties>
+    <property name="function" value="ToggleCollision"/>
+    <property name="player-only" value="true"/>
+    <property name="timer" value="-1"/>
+   </properties>
+  </object>
+  <object id="9" x="1652" y="2486.5" height="0.5"/>
+  <object id="11" name="TV- Load Open World" type="Trigger" x="1600" y="2464" width="128" height="96">
+   <properties>
+    <property name="function" value="TriggerLoadMain"/>
+    <property name="player-only" value="true"/>
+    <property name="timer" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<font>
+	<sheet src="SquareFont8x8.png" charsize="8">SL8x8</sheet>
+	<charmap>
+		<row>ABCDEFGHIJKLM</row>
+		<row>NOPQRSTUVWXYZ</row>
+		<row>abcdefghijklm</row>
+		<row>nopqrstuvwxyz</row>
+		<row>0123456789.,'</row>
+		<row>'"";:!@$%()-+</row>
+	</charmap>
+</font>
+
+
+
+

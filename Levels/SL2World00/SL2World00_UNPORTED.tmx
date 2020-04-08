@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="1024" height="1024" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="3">
+ <tileset firstgid="1" source="../SL2Spawn00/assets/blocks32.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="1024" height="1024">
+  <data encoding="csv"></data>
+ </layer>
+ <objectgroup color="#aa0000" id="5" name="Zones">
+  <object id="1" name="SpawnPoint" type="SpawnPoint" x="20544" y="7104">
+   <point/>
+  </object>
+  <object id="2" name="TV- Load Spawn" type="Trigger" x="20512" y="6976" width="128" height="96">
+   <properties>
+    <property name="function" value="TriggerLoadSpawn"/>
+    <property name="player-only" value="true"/>
+    <property name="timer" value="-1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

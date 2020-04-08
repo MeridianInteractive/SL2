@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity>
+  <props>
+    <name>Grenade</name>
+    <health>-1</health>
+    <speed>5</speed>
+    <mass>20</mass>
+    <script>Grenade</script>
+  </props>
+  <sprite>
+    <xOffset>1.00</xOffset>
+    <yOffset>1.00</yOffset>
+    <static>WizardBolt</static>
+    <display>WizardBolt</display>
+  </sprite>
+  <hitbox>
+    <begin-x>0</begin-x>
+    <begin-y>0</begin-y>
+    <width>16</width>
+    <height>16</height>
+  </hitbox>
+  <vars>
+	<range>400</range>
+	<firerate>50</firerate>
+	<damage>3</damage>
+	<do-rotation>false</do-rotation>
+  </vars>
+</entity>

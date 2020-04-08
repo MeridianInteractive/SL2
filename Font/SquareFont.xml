@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<font>
+	<sheet src="SquareFont.png" charsize="16">SL</sheet>
+	<charmap>
+		<row>ABCDEFGHIJKLM</row>
+		<row>NOPQRSTUVWXYZ</row>
+		<row>abcdefghijklm</row>
+		<row>nopqrstuvwxyz</row>
+		<row>0123456789.,'</row>
+		<row>'\";:!@$%()-+</row>
+	</charmap>
+</font>

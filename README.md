@@ -1,1 +1,1 @@
-SL2
+Spiritual Sequel to 'Square Legacy'

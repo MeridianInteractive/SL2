@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity>
+  <props>
+    <name>Rock</name>
+    <health>-1</health>
+    <speed>0</speed>
+    <mass>10</mass>
+    <script>Rock.lua</script>
+  </props>
+  <sprite>
+    <xOffset>1.00</xOffset>
+    <yOffset>1.00</yOffset>
+    <static>RockParticle</static>
+    <display>RockParticle</display>
+  </sprite>
+  <hitbox>
+    <begin-x>0</begin-x>
+    <begin-y>0</begin-y>
+    <width>16</width>
+    <height>16</height>
+  </hitbox>
+  <vars>
+	<!-- ITEM -->
+	<equip_slot>-1</equip_slot>
+	<!-- PROJECTILE -->
+	<range>400</range>
+	<firerate>50</firerate>
+	<damage>3</damage>
+	<do-rotation>false</do-rotation>
+  </vars>
+</entity>
+
+
+ <!-- EQUIPMENT SLOTS*: -->
+ <!-- -1 = NO Slot (Not equipment) -->
+ <!--  0 = Head -->
+ <!--  1 = Chest -->
+ <!--  2 = Arms -->
+ <!--  3 = Legs -->
+ <!--  4 = Feet -->
+ <!--  5 = MSC1 -->
+ <!--  6 = MSC2 -->
+ <!--  7 = Weapon -->
+
+ <!-- *= Not implemented -->
