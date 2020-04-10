@@ -1,5 +1,5 @@
 print("Loading Lua for level SL2 SL Ported Spawn")
-level:preLoadLevel("SL2World00")
+--level:preLoadLevel("SL2World00")
 
 function ToggleCollision(entity)
 	--menu:RunCommand("tcl")

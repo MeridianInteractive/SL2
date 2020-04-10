@@ -8,7 +8,10 @@ function ToggleCollision(entity)
 end
 
 function TriggerLoadSpawn(entity)
-	print(p:x())
 	level:MovePlayerTo(p:x() - 18912, 2400, "SL2Spawn00", false);
+end
+
+function TriggerLoadHouse(entity)
+	level:MovePlayerTo(-1, -1, "SL2House00", true);
 end
 

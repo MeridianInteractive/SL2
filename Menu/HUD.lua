@@ -23,6 +23,7 @@ end
 
 function Moving()
 	menu:SetElementText("coords", (p:TileX())..","..(p:TileY()));
+	--level.tiles[p:TileX() + p:TileY() * level.width]
 end
 
 --Update all the variables when the menu is opened

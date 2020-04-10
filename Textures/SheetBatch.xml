@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Sheets>
 	<sheet src="/World/blocks32.png" w="1024" h="1024">Terrain</sheet>
+	<sheet src="/World/Houses/House.png" w="256" h="256">Houses</sheet>
 
 	<sheet src="/GUI/Menu.png" w="300" h="300">TitleMenu</sheet>
 	<sheet src="/GUI/fade.png" w="300" h="168">BGFade</sheet>
