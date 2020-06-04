@@ -26,6 +26,10 @@ function Moving()
 	--level.tiles[p:TileX() + p:TileY() * level.width]
 end
 
+function Clock(worldtime)
+	menu:SetElementText("clock", "Time: "..worldtime);
+end
+
 --Update all the variables when the menu is opened
 local itr = p:getVars():iterator();
 while(itr:hasNext()) do
