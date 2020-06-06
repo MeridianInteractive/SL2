@@ -14,7 +14,7 @@
  </layer>
  <layer id="5" name="Tile Layer 3" width="104" height="104">
   <data encoding="base64" compression="zlib">
-   eAHt1zEKgDAQBECx88V+X9IGEi96V2UCFsq5xlksPA6LAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQ2EngPt/fNjLTp1yB3P4e5/kCrYfZkf9EiSsCs258QyuSNbORfvRUYx9JjfQTyTFTI6CfGtesVP1kSdbk6Cff9cv/zGgX+hnJ/L+e2VO/m9abRYAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBDYReABT8YExg==
+   eAHt1zEKgDAQBMBg54t9it+VdMEiXmS7TECwuGzILBa2ZhEgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQI7CVzH9237zF2YG5POxflxr/ecQO9h9uROkvRHYNaNb+iPaHZPpR89Zc1X0ir9rOSZzQroJ+uZTtNPWjSbp5+sZ0+r/PNUT9VPVWp9LtnT+/Tem0WAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQ2EXgAaK6BV8=
   </data>
  </layer>
  <objectgroup color="#ff00ff" id="4" name="Collision">
@@ -49,8 +49,8 @@
   </object>
   <object id="14" name="Skybox" type="Skybox" x="2088" y="2378.67">
    <properties>
-    <property name="BaseBrightness" type="int" value="0"/>
-    <property name="DoDayCycle" type="bool" value="true"/>
+    <property name="BaseBrightness" type="int" value="-200"/>
+    <property name="DoDayCycle" type="bool" value="false"/>
    </properties>
    <point/>
   </object>

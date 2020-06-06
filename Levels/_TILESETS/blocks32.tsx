@@ -25,14 +25,14 @@
   <properties>
    <property name="illuminator" type="int" value="300"/>
    <property name="light_attenuation" type="float" value="0.25"/>
-   <property name="light_radius" type="float" value="15"/>
+   <property name="light_radius" type="float" value="-1"/>
   </properties>
  </tile>
  <tile id="660">
   <properties>
    <property name="illuminator" type="int" value="280"/>
    <property name="light_attenuation" type="float" value="0.3"/>
-   <property name="light_radius" type="float" value="20"/>
+   <property name="light_radius" type="float" value="-1"/>
   </properties>
  </tile>
  <tile id="661">
@@ -40,6 +40,13 @@
    <property name="illuminator" type="int" value="300"/>
    <property name="light_attenuation" type="float" value="0.25"/>
    <property name="light_radius" type="float" value="15"/>
+  </properties>
+ </tile>
+ <tile id="662">
+  <properties>
+   <property name="illuminator" type="float" value="100"/>
+   <property name="light_attenuation" type="float" value="-1"/>
+   <property name="light_radius" type="float" value="-1"/>
   </properties>
  </tile>
  <tile id="692">
