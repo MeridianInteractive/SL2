@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.2" tiledversion="1.3.1" name="blocks32" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+<tileset version="1.2" tiledversion="1.3.3" name="blocks32" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
  <image source="../../Textures/assets/World/blocks32.png" trans="ff00ff" width="1024" height="1024"/>
+ <tile id="11">
+  <animation>
+   <frame tileid="11" duration="250"/>
+   <frame tileid="12" duration="250"/>
+  </animation>
+ </tile>
  <tile id="570">
   <animation>
    <frame tileid="11" duration="100"/>

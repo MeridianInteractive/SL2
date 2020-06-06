@@ -27,6 +27,10 @@ function luaTestHover()
 	--print("Button Hovered Over!")
 end
 
+function onClick(btn)
+	return true
+end
+
 function luaSliderTest(newPos)
 	--print("NEW FPOSITION: "..newPos)
 	menu:SetVolume(newPos / 108);
