@@ -32,6 +32,12 @@ function luaTestHover()
 	--print("Button Hovered Over!")
 end
 
+function onClick(btn)
+	if (btn == 1) then
+		menu:SetElementText("tile_info", menu:SelectVictimTile())
+	end
+end
+
 function onSubmit(text)
 	print("Text Submitted.. "..text)
 	menu:SetElementText("Cmd", "")

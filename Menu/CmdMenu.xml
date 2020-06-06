@@ -11,5 +11,6 @@
 		<button x="38" y="5" align="right" transAnim="false" anim="false" image="ExitIcon" onClick="basicContinueGame" onHover="luaTestHover">Btn 4</button>
 		<textfield id="Cmd" x="5" y="5" max="24" scrollable="false" numeric_only="false" sensitive_input="false" onSubmit="onSubmit" onKeyed="onKeyed">Enter Command..</textfield>
 		<label id="hist" x="5" y="38" color="0xFFFFFF" hvcolor="0x660099">Log:</label>
+		<label id="tile_info" x="345" y="7" font="SquareFont8x8" bg="true" color="0xFFFFFF">Tile info:</label>
 	</components>
 </uiset>
