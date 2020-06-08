@@ -10,6 +10,10 @@ function onUnload()
 	menu:ResumeWorldInput()
 end
 
+function onClick(btn)
+	print("TRUE")
+end
+
 function basicContinueGame()
 	menu:continueGame()
 end
