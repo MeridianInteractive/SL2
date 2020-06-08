@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="104" height="104" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="15">
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="104" height="104" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="16">
  <tileset firstgid="1" source="../_TILESETS/blocks32.tsx"/>
  <tileset firstgid="1025" source="../_TILESETS/Houses.tsx"/>
  <layer id="1" name="Tile Layer 1" width="104" height="104">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="2" name="Tile Layer 2" width="104" height="104">
@@ -53,6 +53,13 @@
     <property name="DoDayCycle" type="bool" value="false"/>
    </properties>
    <point/>
+  </object>
+  <object id="15" name="TV- Dungeon" type="Trigger" x="1804.67" y="2324" width="192" height="160">
+   <properties>
+    <property name="function" value="TriggerLoadDungeon"/>
+    <property name="player-only" value="true"/>
+    <property name="timer" value="5"/>
+   </properties>
   </object>
  </objectgroup>
 </map>

@@ -12,10 +12,3 @@ function TriggerLoadMain(entity)
 	level:MovePlayerTo(p:x() + 18912, 6944, "SL2World00", false);
 end
 
-function TriggerLoadDungeon(entity)
-	print("Attempting Trigger")
-	p = level:getClientPlayer();
-	level:MovePlayerTo(-1, -1, "SL2Tutorial00", true);
-end
-
-
