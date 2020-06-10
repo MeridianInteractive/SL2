@@ -5,7 +5,7 @@
     <health>5</health>
     <speed>2</speed>
     <mass>95</mass>
-    <script>TestZombie.lua</script>
+    <script>TestZombie</script>
   </props>
   <sprite>
     <xOffset>1.00</xOffset>

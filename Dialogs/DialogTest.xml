@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dialog>
+	<chunk id="0">
+		<text>Hello!</text>
+		<responses>
+			<response id="0" next="-1">Goodbye</response>
+			<response id="1" next="1">Hi!</response>
+		</responses>
+	</chunk>
+	<chunk id="1">
+		<text>How are you?</text>
+		<responses>
+			<response id="0" next="-1">Goodbye</response>
+		</responses>
+	</chunk>
+</dialog>

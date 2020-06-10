@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity>
+  <props>
+    <name>Lantern</name>
+    <health>-1</health>
+    <speed>0</speed>
+    <mass>1</mass>
+    <script>Lantern</script>
+  </props>
+  <sprite>
+    <xOffset>1.00</xOffset>
+    <yOffset>1.00</yOffset>
+    <static>Lantern</static>
+    <display>Lantern</display>
+  </sprite>
+  <anim>
+    <up/>
+    <down/>
+    <left/>
+    <right/>
+    <idle/>
+  </anim>
+  <hitbox>
+    <begin-x>0</begin-x>
+    <begin-y>0</begin-y>
+    <width>16</width>
+    <height>16</height>
+  </hitbox>
+  <vars>
+    <equip_slot>5</equip_slot>
+	<durability>1000</durability>
+  </vars>
+</entity>

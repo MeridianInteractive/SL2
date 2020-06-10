@@ -4,6 +4,7 @@
 	<rect x="0" y="0" w="300" h="168" sheet="BGFade">BGFade</rect>
 	<rect x="0" y="0" w="18" h="18" sheet="AbilityBox">AbilityBox</rect>
 	<rect x="0" y="0" w="32" h="32" sheet="ExitIcon">ExitIcon</rect>
+	<rect x="2" y="2" w="292" h="196" sheet="Inventory">Inventory</rect>
 	
 	<!--rect x="0" y="0" w="72" h="32" sheet="HealthBar">HealthBar</rect-->
 	<anim w="72" h="32" len="7" rate="12" sheet="HealthBar">HealthBar</anim>
@@ -11,6 +12,8 @@
 	<square x="0" y="0" s="16" sheet="Projectiles">WizardBolt</square>
 	
 	<square x="2" y="0" s="16" sheet="Items">ManaPotion</square>
+	<square x="0" y="0" s="16" sheet="SL2Items">Lantern</square>
+	<square x="1" y="0" s="16" sheet="SL2Items">sixteen</square>
 
 	<color w="1" h="1" color="0xffFF00FF" >Barrier</color>
 	<color w="2" h="2" color="0xff7F0000" >DefaultParticle</color>

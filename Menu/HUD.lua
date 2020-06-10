@@ -9,8 +9,10 @@ local p = level:getClientPlayer();
 
 --Function called when a key is released
 function KeyInput(key)
+	local p = level:getClientPlayer();
 	if (key == 69) then
 		print("Opening Inventory.")
+		p:ShowInventory()
 	end
 end
 
