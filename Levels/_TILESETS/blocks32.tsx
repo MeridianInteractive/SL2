@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.2" tiledversion="1.3.5" name="blocks32" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
  <image source="../../Textures/assets/World/blocks32.png" trans="ff00ff" width="1024" height="1024"/>
+ <terraintypes>
+  <terrain name="path" tile="626"/>
+  <terrain name="wall" tile="517"/>
+ </terraintypes>
  <tile id="11">
   <properties>
    <property name="frame_rate" type="int" value="30"/>
@@ -64,12 +68,18 @@
    <property name="frame_rate" type="int" value="30"/>
   </properties>
  </tile>
+ <tile id="517" terrain=",,1,1"/>
+ <tile id="549" terrain="1,1,1,1"/>
  <tile id="570">
   <animation>
    <frame tileid="11" duration="100"/>
    <frame tileid="12" duration="100"/>
   </animation>
  </tile>
+ <tile id="593" terrain="0,0,0,"/>
+ <tile id="594" terrain="0,0,,0"/>
+ <tile id="625" terrain="0,,0,0"/>
+ <tile id="626" terrain=",0,0,0"/>
  <tile id="628">
   <properties>
    <property name="illuminator" type="int" value="300"/>
@@ -91,6 +101,8 @@
    <property name="light_radius" type="float" value="-1"/>
   </properties>
  </tile>
+ <tile id="657" terrain="0,,,0"/>
+ <tile id="658" terrain=",0,0,"/>
  <tile id="660">
   <properties>
    <property name="illuminator" type="int" value="300"/>
@@ -112,6 +124,7 @@
    <property name="light_radius" type="float" value="-1"/>
   </properties>
  </tile>
+ <tile id="689" terrain="0,0,0,0"/>
  <tile id="692">
   <properties>
    <property name="illuminator" type="int" value="300"/>
@@ -156,6 +169,7 @@
  </tile>
  <tile id="788">
   <properties>
+   <property name="color" type="color" value="#ff5500ff"/>
    <property name="illuminator" type="int" value="300"/>
    <property name="light_attenuation" type="float" value="0.25"/>
    <property name="light_radius" type="float" value="15"/>

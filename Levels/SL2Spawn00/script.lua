@@ -7,7 +7,6 @@ function ToggleCollision(entity)
 end
 
 function TriggerLoadMain(entity)
-	print("Attempting Trigger")
 	p = level:getClientPlayer();
 	level:MovePlayerTo(p:x() + 18912, 6944, "SL2World00", false);
 end
