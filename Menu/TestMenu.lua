@@ -48,4 +48,11 @@ function onKeyed(character, filtered)
 	end
 end
 
+function KeyInput(key)
+	local p = level:getClientPlayer();
+	if (key == 27) then
+		p:ShowHUD()
+	end
+end
+
 

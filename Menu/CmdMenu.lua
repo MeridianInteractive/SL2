@@ -50,3 +50,13 @@ function onKeyed(character, filtered)
 		--print("Key Typed.. "..character)
 	end
 end
+
+function KeyInput(key)
+	local p = level:getClientPlayer();
+	if (key == 192) then
+		p:ShowHUD()
+	end
+	if (key == 27) then
+		menu:ShowMainMenu()
+	end
+end

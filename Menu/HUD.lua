@@ -11,8 +11,13 @@ local p = level:getClientPlayer();
 function KeyInput(key)
 	local p = level:getClientPlayer();
 	if (key == 69) then
-		print("Opening Inventory.")
 		p:ShowInventory()
+	end
+	if (key == 192) then
+		menu:ShowConsole()
+	end
+	if (key == 27) then
+		menu:ShowMainMenu()
 	end
 end
 
