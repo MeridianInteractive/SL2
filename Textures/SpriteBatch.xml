@@ -19,8 +19,14 @@
 	<color w="1" h="1" color="0xff7F0000" >BleedParticle</color>
 	<color w="3" h="3" color="0xff808080" >RockParticle</color>
 	
+	<!-- len is short for length and number of frames, rate is how fast the animation plays> -->
+	
+	<anim w="64" h="64" len="7" rate="12" sheet="player_idle_down">PlayerIdleDown</anim>
+	<anim w="64" h="64" len="7" rate="12" sheet="player_idle_up">PlayerIdleUp</anim>
+	<anim w="64" h="64" len="7" rate="12" sheet="player_idle_left">PlayerIdleLeft</anim>
+	<anim w="64" h="64" len="7" rate="12" sheet="player_idle_right">PlayerIdleRight</anim>
 	<anim w="64" h="64" len="7" rate="12" sheet="player_down">PlayerDown</anim>
-	<anim w="64" h="64" len="7" rate="12" sheet="player_up">PlayerIdle</anim>
+	<anim w="64" h="64" len="7" rate="12" sheet="player_up">PlayerUp</anim>
 	<anim w="64" h="64" len="7" rate="12" sheet="player_left">PlayerLeft</anim>
 	<anim w="64" h="64" len="7" rate="12" sheet="player_right">PlayerRight</anim>
 	

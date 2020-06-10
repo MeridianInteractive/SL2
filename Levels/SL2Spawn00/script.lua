@@ -13,9 +13,7 @@ function TriggerLoadMain(entity)
 end
 
 function TriggerLoadDungeon(entity)
-	print("Attempting Trigger")
-	p = level:getClientPlayer();
-	level:MovePlayerTo(-1, -1, "SL2Tutorial00", true);
+	level:MovePlayerTo(-1, -1, "SL2Dungeon00", true);
 end
 
 

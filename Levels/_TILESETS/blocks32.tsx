@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.2" tiledversion="1.3.3" name="blocks32" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+<tileset version="1.2" tiledversion="1.3.5" name="blocks32" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
  <image source="../../Textures/assets/World/blocks32.png" trans="ff00ff" width="1024" height="1024"/>
  <tile id="11">
   <properties>
@@ -79,7 +79,7 @@
  </tile>
  <tile id="629">
   <properties>
-   <property name="illuminator" type="int" value="250"/>
+   <property name="illuminator" type="int" value="300"/>
    <property name="light_attenuation" type="float" value="0.25"/>
    <property name="light_radius" type="float" value="-1"/>
   </properties>
@@ -93,7 +93,7 @@
  </tile>
  <tile id="660">
   <properties>
-   <property name="illuminator" type="int" value="280"/>
+   <property name="illuminator" type="int" value="300"/>
    <property name="light_attenuation" type="float" value="0.3"/>
    <property name="light_radius" type="float" value="-1"/>
   </properties>

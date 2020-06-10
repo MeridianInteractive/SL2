@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.5" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="25">
+ <tileset firstgid="1" source="../_TILESETS/blocks32.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJADAMAzDTX316/sgNhUIXDdrVkxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALg2+X8AAAAAAAAAAAAAAAAAAADeW3IKuNA=
+  </data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2U1qwzAURWHhmWZZhSGzjLufbLgrKqGIqI7+LMl6F3o+ELQlTcs7eXZJnVvHb87dF57Xz0MePbSEGa06d3oUrdyNOz2q6KGFHs59C/1O9NBCDy300EIPLX5xC0+PInpooYeWMKPaaZ11y/Mg78zrekYzepStvFbRo44eWuihhR5a6KHFL27h6VFEDy300BJmlDu9My89H/JaZnu2Re0xyBt9vffsE/JW3jvoUUcPLfTQQg8t9NBCDy300EIPLfTQ4ukhZXUPT48iemihh5Ywo9zpnXnp+ZDXMtuzLWqPQd6sGZ95HPJmXIPOXtuQ13N/GD3Io4cWemihhxZ6aKGHDm/Q4nU8TZIsWrAjefTQYXWt4pqVZtmCHfmUer1evQ/0yLPeDXq8tezC6L60/gzMmW3r19iRuln3gtEdosev1CxbZxset3d+3/FzjF//9+j0fD/78Wnk+nTs0Xv9etKjqGWGe+K07sHX9j44b6RHCj3miXvc3PvslQa4zq1wsF6Y/ePw8cPyl/rn4h6P6GPYOPaghT16aDler2Arvm/QQ0P8Nxbs9fZ4bn8P5mi5lx9nT4frpHqUZk+Ha8U92AN74d7B/O3F7yPSwR7v62rhvRIdvE+ihd3QQg8t9NAR/48W9riX6+B/5VrYCx3cw7WwG1rYDR3shhZ2Qwu7oYUeAAD0+QHcxEX4
+  </data>
+ </layer>
+ <layer id="6" name="Tile Layer 3" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3E1OwzAQhuEqN+A6rDkDYsGSK4CExDVA9FqIA6EKRU2jtHGcsf2N532krGiRM2OPf9L2cAAAwM770LoF2u6H85XqZzhfWPeREKecPIxOeTiSDzO5eRjzXHt8RKpxx0D3CmyVMtcAsMF4A/aLtIYtjTWyHS/90vs8ZNl+77EAgL2og+gZ/bscYgvsk/scEeXsec6OS6c5Yrz2Ih/ttTg3ZJ0BxNBirFNf0Ktvgb69Nr4U2tgKtQfQELkOWeFzJYAfXtYf89rspd1RKOXjSagt0Z1yQT40kIs8t2rb0t9S18DkwyeluQ79Ue9f6u3rTeR4R7j3CPfYAmeRy3L7W+14esyfxzYDynguB+RjfekL+dpOOWZbz49L+hSOkydq30WJ/p0ltfuetketbTUo3fN8XNRom9pvAk3rQ06teJ299i3xvY/D5RW5Ri1Zy8neve/S/5/nY00vZ1qpsbzWR3PHzvjaa+8bc4F8qTk5ruSiJOU9Sq4xjkv3Rp1PZ9k3LOLeY18tiXj9Iw4Acln9VowXveytrEXqAz3bmkeLvKf8j6+g/Uv1sxS/gu1SO8ONjnzozIsq7fCk1tzWqxbniZHOMLf2rdqx4dnhbSmxsYxhL7nooaa2HBue4ldj35eSi9bnPir7wNL7vlbjQmlMKLXFu+eEWHqOt+e2KyGOdlLXtbCXG1dv5+vW47XU+E/Nx93sdYrn694o1PSU9Qd8ab0XLCFn3ig5ZyiM3VZy98Al54wW+Vh7frh1HObW4j1r1Qdn/Xj8jUOl3zm0PPt62fg9kBrnUbfG1jQfSjmpbZqHlmeh83xEz0tr5MO/a/XvD6rUZXI=
+  </data>
+ </layer>
+ <objectgroup color="#ff00ff" id="3" name="Collision">
+  <object id="24" name="Collision" type="solid" x="1248" y="2080">
+   <polygon points="0,0 -64,0 -64,-32 -160,-32 -160,-64 -288,-64 -288,-96 -448,-96 -448,-128 -480,-128 -480,-288 -448,-288 -448,-416 -416,-416 -416,-512 -384,-512 -384,-2080 544,-2080 544,-512 576,-512 576,-416 608,-416 608,-288 640,-288 640,-128 608,-128 608,-96 448,-96 448,-64 320,-64 320,-32 224,-32 224,0 160,0 160,-96 128,-96 128,-160 96,-160 96,-192 64,-192 64,-160 32,-160 32,-96 0,-96"/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#aa0000" id="4" name="Zones">
+  <properties>
+   <property name="function" value="TriggerLoadKyrthTower"/>
+   <property name="player-only" value="true"/>
+   <property name="timer" value="-1"/>
+  </properties>
+  <object id="19" name="SpawnPoint" type="SpawnPoint" x="1109.09" y="3066.67">
+   <point/>
+  </object>
+  <object id="20" name="Skybox" type="Skybox" x="1124.24" y="1500">
+   <properties>
+    <property name="BaseBrightness" type="int" value="-200"/>
+    <property name="DoDayCycle" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" name="TV- Kyrth Tower" type="Trigger" x="1240.67" y="1848.33" width="179.333" height="110.333">
+   <properties>
+    <property name="function" value="TriggerLoadHighKyrthBase"/>
+    <property name="player-only" value="true"/>
+    <property name="timer" value="5"/>
+   </properties>
+  </object>
+  <object id="23" name="TV- World" type="Trigger" x="1189.67" y="3047.67" width="19" height="50.6667">
+   <properties>
+    <property name="function" value="TriggerLoadMain"/>
+    <property name="player-only" value="true"/>
+    <property name="timer" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

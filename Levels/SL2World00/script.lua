@@ -15,3 +15,6 @@ function TriggerLoadHouse(entity)
 	level:MovePlayerTo(-1, -1, "SL2House00", true);
 end
 
+function TriggerLoadHighKyrth(entity)
+	level:MovePlayerTo(-1, -1, "SL2HighKyrth", true);
+end
