@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Sprites>
 	<rect x="0" y="0" w="300" h="168" sheet="TitleMenu">Title</rect>
+	<rect x="0" y="0" w="640" h="360" sheet="SL2Menu">SL2Menu</rect>
 	<rect x="0" y="0" w="300" h="168" sheet="BGFade">BGFade</rect>
 	<rect x="0" y="0" w="18" h="18" sheet="AbilityBox">AbilityBox</rect>
 	<rect x="0" y="0" w="32" h="32" sheet="ExitIcon">ExitIcon</rect>

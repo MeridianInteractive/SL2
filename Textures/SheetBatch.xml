@@ -4,6 +4,8 @@
 	<sheet src="/World/Houses/House.png" w="256" h="256">Houses</sheet>
 
 	<sheet src="/GUI/Menu.png" w="300" h="300">TitleMenu</sheet>
+	<sheet src="/GUI/SL2Menu.png" w="640" h="360">SL2Menu</sheet>
+
 	<sheet src="/GUI/fade.png" w="300" h="168">BGFade</sheet>
 	<sheet src="/GUI/AbilityBox.png" w="20" h="20">AbilityBox</sheet>
 	<sheet src="/GUI/ExitIcon.png" w="32" h="32">ExitIcon</sheet>

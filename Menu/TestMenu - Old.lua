@@ -3,8 +3,6 @@ GAME:DiscordMenuPresence("Test Main Menu")
 
 --menu:PlayMusic("Hope", "Hope.mid")
 menu:SuspendWorldInput()
-local Audio = luajava.bindClass("com.IB.LE2.asset.audio.Audio")
---Audio:Play("TMWC");
 
 function onUnload()
 	print("Closing TestMenu UI")

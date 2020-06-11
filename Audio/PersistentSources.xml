@@ -3,4 +3,10 @@
 	<!--source name="Hope" file="Hope.ogg" vol="1.0" /-->
 	<source name="Hope" file="Hope.mid" vol="1.0" />
 	<source name="Explosion4" file="Explosion4.ogg" vol="0.5" />
+	<source name="Play" file="play.ogg" vol="1.0" />
+	<source name="TMWC" file="TheMightywillCrumble.ogg" vol="0.01" />
+	<source name="Coin" file="Coin.ogg" vol="0.2" />
+	<source name="InvOpen" file="inventory_Open.ogg" vol="0.2" />
+	<source name="InvClose" file="inventory_Close.ogg" vol="0.2" />
+
 </audiosources>
