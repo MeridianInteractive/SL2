@@ -10,6 +10,7 @@
 	<components>
 
 		<button x="224" y="278" w="191" h="63" transAnim="false" image="Play.png" anim="true" sound="Play" onClick="basicContinueGame" onHover="luaTestHover">Play</button>
+		<slider x="224" y="348" w="191" xo="95" railColor="0xFFFFFF" slideCol="0x080131" onPosUpdated="luaSliderTest">Slider 1</slider>
 
 		<!--slider x="150" y="60" w="108" xo="75" railColor="0xFFFF00" slideCol="0xFF0000" onPosUpdated="luaSliderTest">Slider 1</slider-->
 	</components>
